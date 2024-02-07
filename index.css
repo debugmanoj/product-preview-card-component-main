@@ -102,6 +102,9 @@ img {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+.mobile{
+  display: none; 
+}
 
 @media only screen and (max-width: 547px) and (orientation: portrait) {
   .container {
@@ -121,5 +124,8 @@ img {
   .cartImg {
     width: 100%;
     height: auto;
+  }
+  .mobile{
+    display: block; 
   }
 }
